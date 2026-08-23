@@ -1,0 +1,12 @@
+<!-- @dsCard group="Components" viewport="700x180" name="Nav Link" -->
+<link rel="stylesheet" href="../../styles.css">
+<script src="../../_ds_bundle.js"></script>
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" crossorigin></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" crossorigin></script>
+<div id="root" style="padding:32px;background:var(--ink)"></div>
+<script type="text/babel">
+const {NavLink}=window.AliceJuliaDesignSystem_3111c6;
+function Demo(){return <nav style={{display:'flex',gap:36}}><NavLink dark active href="#">About</NavLink><NavLink dark href="#">Portfolio</NavLink><NavLink dark href="#">Contact</NavLink></nav>;}
+ReactDOM.createRoot(document.getElementById('root')).render(<Demo/>);
+</script>

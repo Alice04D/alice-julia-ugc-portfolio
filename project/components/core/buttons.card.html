@@ -1,0 +1,24 @@
+<!-- @dsCard group="Components" viewport="700x260" name="Buttons & Tags" -->
+<link rel="stylesheet" href="../../styles.css">
+<script src="../../_ds_bundle.js"></script>
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" crossorigin></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" crossorigin></script>
+<div id="root" style="padding:28px;background:var(--bg-page)"></div>
+<script type="text/babel">
+const {Button,Tag}=window.AliceJuliaDesignSystem_3111c6;
+function Demo(){
+return (
+<div style={{display:'flex',flexDirection:'column',gap:20,fontFamily:'var(--font-sans)'}}>
+<div style={{display:'flex',gap:16,alignItems:'center'}}>
+<Button variant="primary" size="lg" iconRight>Book a call</Button>
+<Button variant="outline">View portfolio</Button>
+<Button variant="outline" size="lg">Enquire</Button>
+</div>
+<div style={{display:'flex',gap:10}}>
+<Tag>Beauty</Tag><Tag variant="solid">Tech / SaaS</Tag><Tag>Lifestyle</Tag>
+</div>
+</div>);
+}
+ReactDOM.createRoot(document.getElementById('root')).render(<Demo/>);
+</script>

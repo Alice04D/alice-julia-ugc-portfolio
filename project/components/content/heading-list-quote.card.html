@@ -1,0 +1,19 @@
+<!-- @dsCard group="Components" viewport="700x520" name="Section Heading, Quote & List" -->
+<link rel="stylesheet" href="../../styles.css">
+<script src="../../_ds_bundle.js"></script>
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" crossorigin></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" crossorigin></script>
+<div id="root" style="padding:32px;background:var(--bg-page);display:flex;flex-direction:column;gap:28px"></div>
+<script type="text/babel">
+const {SectionHeading,IconListItem,QuoteBlock}=window.AliceJuliaDesignSystem_3111c6;
+function Demo(){return (<>
+<SectionHeading eyebrow="UGC Examples" title="Beauty & tech content, built to convert." />
+<div style={{display:'flex',gap:28}}>
+<IconListItem icon="https://cdn.simpleicons.org/tiktok/221b18" title="TikTok" description="Short-form, trend-native" />
+<IconListItem icon="https://cdn.simpleicons.org/instagram/221b18" title="Instagram" description="Visual storytelling & discovery" />
+</div>
+<QuoteBlock quote="Creating native content that converts." body="High-performing UGC is designed with intention: to stop the scroll, build trust, and drive action." />
+</>);}
+ReactDOM.createRoot(document.getElementById('root')).render(<Demo/>);
+</script>

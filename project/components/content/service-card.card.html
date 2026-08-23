@@ -1,0 +1,15 @@
+<!-- @dsCard group="Components" viewport="700x360" name="Service Card" -->
+<link rel="stylesheet" href="../../styles.css">
+<script src="../../_ds_bundle.js"></script>
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" crossorigin></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" crossorigin></script>
+<div id="root" style="padding:28px;background:var(--bg-page);display:flex;gap:20px"></div>
+<script type="text/babel">
+const {ServiceCard}=window.AliceJuliaDesignSystem_3111c6;
+function Demo(){return (<>
+<ServiceCard title="Base Rates" description="Platform-native UGC tailored to your brand." items={['1 video','3 videos bundle','5 videos bundle']} price="From £110" />
+<ServiceCard dark title="Whitelisting" description="Spark Ads / Partnership Ads access." items={['1 month','3 months','6 months']} price="From £200" />
+</>);}
+ReactDOM.createRoot(document.getElementById('root')).render(<Demo/>);
+</script>

@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
+:root{
+--font-sans:'Manrope',-apple-system,sans-serif;
+--text-display:clamp(3.2rem,7vw,6.5rem);
+--text-h1:clamp(2.4rem,4.5vw,3.8rem);
+--text-h2:clamp(1.8rem,3vw,2.6rem);
+--text-h3:1.4rem;
+--text-eyebrow:0.8rem;
+--text-body-lg:1.15rem;
+--text-body:1.02rem;
+--text-small:0.875rem;
+--text-caption:0.75rem;
+--weight-regular:400;
+--weight-medium:500;
+--weight-semibold:600;
+--weight-bold:700;
+--weight-black:800;
+--tracking-tight:-0.02em;
+--tracking-normal:0;
+--tracking-wide:0.02em;
+--tracking-eyebrow:0.14em;
+--leading-tight:1.05;
+--leading-snug:1.25;
+--leading-body:1.6;
+}
