@@ -1,0 +1,463 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Alice Julia — UGC Creator</title>
+<meta name="description" content="Alice Julia — UGC creator building platform-native content for tech/SaaS, fintech, lifestyle, and beauty/self-care brands.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!--
+  MEDIA PLACEHOLDERS
+  ===================
+  This build ships with empty video/photo slots (marked .media-slot,
+  data-slot="…") standing in for real footage. Replace each with a
+  <video>/<img> pointing at the real asset, keeping the same wrapper
+  markup (.phone-frame__screen or .portrait) so sizing/rounding still work:
+
+    hero-intro-video   — vertical intro reel (header)
+    ugc-*              — six UGC example clips (Beauty / Tech-SaaS rows)
+    case-0, case-1, case-2 — three case-study clips
+    contact-portrait   — footer portrait photo
+
+  Double-check the TikTok/Instagram handles in the footer match the real ones.
+-->
+
+<header id="top">
+  <nav class="nav" id="nav">
+    <a class="nav-link" href="#about">About</a>
+    <a class="nav-link" href="#portfolio">Portfolio</a>
+    <a class="nav-link" href="#contact">Contact</a>
+  </nav>
+
+  <div class="container hero">
+    <div class="reveal">
+      <h1 class="hero__title">Alice<br>
+        <span class="hero__title-line">Julia<span class="dot dot--lg" aria-hidden="true"></span></span>
+      </h1>
+      <div class="hero__rule"></div>
+      <p class="hero__tagline">UGC content that performs — organic or paid.</p>
+      <div class="hero__actions">
+        <a class="btn btn--primary btn--lg" href="#contact">Work with me<span class="btn__arrow" aria-hidden="true">→</span></a>
+        <a class="btn btn--outline btn--lg" href="#portfolio">See portfolio</a>
+      </div>
+    </div>
+    <div class="hero__phone reveal" style="--reveal-delay:120ms">
+      <figure class="phone-frame" style="--w:250px">
+        <div class="phone-frame__bezel">
+          <div class="phone-frame__screen">
+            <div class="phone-frame__notch"></div>
+            <div class="media-slot" data-slot="hero-intro-video">Vertical intro video</div>
+          </div>
+        </div>
+        <figcaption class="phone-frame__caption">Intro reel</figcaption>
+      </figure>
+    </div>
+  </div>
+</header>
+
+<section id="about" class="section section--dark">
+  <div class="container about-grid">
+    <div class="reveal">
+      <div class="about-bio">
+        <p>Hi, I'm Alice — a UGC creator who builds content that feels native to the platform it's on. With a background in digital marketing and paid advertising, I know what a hook needs to do in the first two seconds, and how to create content that performs whether it's running organically or behind paid spend.</p>
+        <p>I create high-performing UGC across tech and SaaS, fintech, lifestyle, and beauty/self-care — bringing the same strategic thinking to a software demo as I would a skincare routine: what's the hook, what's the proof point, and what actually makes someone stop scrolling. That paid advertising background means every piece of content is built with more than aesthetics in mind — I'm thinking about engagement, conversion, and what a brand's performance team needs it to do.</p>
+      </div>
+    </div>
+    <div class="reveal" style="--reveal-delay:120ms">
+      <h2 class="heading heading--dark about-heading">About<br>
+        <span class="about-heading__line"><span class="dot dot--md" aria-hidden="true"></span>Me</span>
+      </h2>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="reveal">
+      <div class="eyebrow-row">
+        <span class="eyebrow-rule"></span>
+        <span class="dot dot--sm" aria-hidden="true"></span>
+        <span class="eyebrow">Why UGC</span>
+      </div>
+      <h2 class="heading">Content built with intention.</h2>
+    </div>
+
+    <div class="content-cols">
+      <div class="reveal" style="--reveal-delay:80ms">
+        <div class="content-col">
+          <span class="tag">Content optimised for</span>
+
+          <div class="icon-list-item">
+            <span class="icon-list-item__icon"><img src="https://cdn.simpleicons.org/tiktok/221b18" alt="" width="20" height="20"></span>
+            <span class="icon-list-item__text">
+              <span class="icon-list-item__title">TikTok</span>
+              <span class="icon-list-item__desc">Short-form, trend-native</span>
+            </span>
+          </div>
+          <div class="icon-list-item">
+            <span class="icon-list-item__icon"><img src="https://cdn.simpleicons.org/instagram/221b18" alt="" width="20" height="20"></span>
+            <span class="icon-list-item__text">
+              <span class="icon-list-item__title">Instagram</span>
+              <span class="icon-list-item__desc">Visual storytelling &amp; discovery</span>
+            </span>
+          </div>
+          <div class="icon-list-item">
+            <span class="icon-list-item__icon"><img src="https://cdn.simpleicons.org/youtube/221b18" alt="" width="20" height="20"></span>
+            <span class="icon-list-item__text">
+              <span class="icon-list-item__title">YouTube Shorts</span>
+              <span class="icon-list-item__desc">Hook-driven, retention-focused</span>
+            </span>
+          </div>
+          <div class="icon-list-item">
+            <span class="icon-list-item__icon"><img src="https://cdn.simpleicons.org/pinterest/221b18" alt="" width="20" height="20"></span>
+            <span class="icon-list-item__text">
+              <span class="icon-list-item__title">Pinterest</span>
+              <span class="icon-list-item__desc">Search-friendly, evergreen reach</span>
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="content-divider" aria-hidden="true"></div>
+
+      <div class="reveal" style="--reveal-delay:160ms">
+        <div class="content-col">
+          <span class="tag tag--solid">Content built for</span>
+
+          <div class="icon-list-item icon-list-item--no-desc">
+            <span class="icon-list-item__icon"><span class="icon-list-item__check" aria-hidden="true">✓</span></span>
+            <span class="icon-list-item__text"><span class="icon-list-item__title">Conversion-focused creative</span></span>
+          </div>
+          <div class="icon-list-item icon-list-item--no-desc">
+            <span class="icon-list-item__icon"><span class="icon-list-item__check" aria-hidden="true">✓</span></span>
+            <span class="icon-list-item__text"><span class="icon-list-item__title">Scroll-stopping hooks</span></span>
+          </div>
+          <div class="icon-list-item icon-list-item--no-desc">
+            <span class="icon-list-item__icon"><span class="icon-list-item__check" aria-hidden="true">✓</span></span>
+            <span class="icon-list-item__text"><span class="icon-list-item__title">Platform-native execution</span></span>
+          </div>
+          <div class="icon-list-item icon-list-item--no-desc">
+            <span class="icon-list-item__icon"><span class="icon-list-item__check" aria-hidden="true">✓</span></span>
+            <span class="icon-list-item__text"><span class="icon-list-item__title">Audience connection &amp; trust</span></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="reveal quote-reveal" style="--reveal-delay:220ms">
+      <div class="quote-block">
+        <div class="quote-block__quote">&ldquo;Creating engaging, native content that converts.&rdquo;</div>
+        <div class="quote-block__body">In today's content landscape, attention is currency, and not all content earns it. High-performing UGC is designed with intention: to stop the scroll, build trust, and drive action. I create content that sits seamlessly within the platform while working hard behind the scenes, combining creative execution with a performance-led approach.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="portfolio" class="section section--dark">
+  <div class="container">
+    <div class="reveal">
+      <div class="eyebrow-row">
+        <span class="eyebrow-rule eyebrow-rule--dark"></span>
+        <span class="dot dot--sm" aria-hidden="true"></span>
+        <span class="eyebrow">Portfolio</span>
+      </div>
+      <h2 class="heading heading--dark">UGC Examples</h2>
+    </div>
+    <p class="fine-print fine-print--dark">Example content created to showcase style and process — not paid brand partnerships.</p>
+
+    <div class="portfolio-rows">
+      <div>
+        <span class="tag">Beauty</span>
+        <div class="phone-row">
+          <figure class="phone-frame reveal" style="--w:240px;--reveal-delay:0ms">
+            <div class="phone-frame__bezel">
+              <div class="phone-frame__screen">
+                <div class="phone-frame__notch"></div>
+                <div class="media-slot" data-slot="ugc-champo-pitta-growth-serum">UGC video</div>
+              </div>
+            </div>
+            <figcaption class="phone-frame__caption">Chāmpo Pitta Growth Serum</figcaption>
+          </figure>
+          <figure class="phone-frame reveal" style="--w:240px;--reveal-delay:100ms">
+            <div class="phone-frame__bezel">
+              <div class="phone-frame__screen">
+                <div class="phone-frame__notch"></div>
+                <div class="media-slot" data-slot="ugc-medik8-crystal-retinal">UGC video</div>
+              </div>
+            </div>
+            <figcaption class="phone-frame__caption">Medik8 Crystal Retinal</figcaption>
+          </figure>
+          <figure class="phone-frame reveal" style="--w:240px;--reveal-delay:200ms">
+            <div class="phone-frame__bezel">
+              <div class="phone-frame__screen">
+                <div class="phone-frame__notch"></div>
+                <div class="media-slot" data-slot="ugc-maybelline-grippy-serum-grippy-setting-mist">UGC video</div>
+              </div>
+            </div>
+            <figcaption class="phone-frame__caption">Maybelline Grippy Serum &amp; Grippy Setting Mist</figcaption>
+          </figure>
+        </div>
+      </div>
+
+      <div>
+        <span class="tag">Tech / SaaS</span>
+        <div class="phone-row">
+          <figure class="phone-frame reveal" style="--w:240px;--reveal-delay:0ms">
+            <div class="phone-frame__bezel">
+              <div class="phone-frame__screen">
+                <div class="phone-frame__notch"></div>
+                <div class="media-slot" data-slot="ugc-topcashback">UGC video</div>
+              </div>
+            </div>
+            <figcaption class="phone-frame__caption">TopCashback</figcaption>
+          </figure>
+          <figure class="phone-frame reveal" style="--w:240px;--reveal-delay:100ms">
+            <div class="phone-frame__bezel">
+              <div class="phone-frame__screen">
+                <div class="phone-frame__notch"></div>
+                <div class="media-slot" data-slot="ugc-mazuma-mobile">UGC video</div>
+              </div>
+            </div>
+            <figcaption class="phone-frame__caption">Mazuma Mobile</figcaption>
+          </figure>
+          <figure class="phone-frame reveal" style="--w:240px;--reveal-delay:200ms">
+            <div class="phone-frame__bezel">
+              <div class="phone-frame__screen">
+                <div class="phone-frame__notch"></div>
+                <div class="media-slot" data-slot="ugc-canva">UGC video</div>
+              </div>
+            </div>
+            <figcaption class="phone-frame__caption">Canva</figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="reveal">
+      <div class="eyebrow-row">
+        <span class="eyebrow-rule"></span>
+        <span class="dot dot--sm" aria-hidden="true"></span>
+        <span class="eyebrow">Portfolio</span>
+      </div>
+      <h2 class="heading">Case Studies</h2>
+    </div>
+    <p class="fine-print">Self-initiated concept work for portfolio purposes, not commissioned campaigns.</p>
+
+    <div class="case-grid">
+      <div class="reveal case-study" style="--reveal-delay:0ms">
+        <figure class="phone-frame" style="--w:195px">
+          <div class="phone-frame__bezel">
+            <div class="phone-frame__screen">
+              <div class="phone-frame__notch"></div>
+              <div class="media-slot" data-slot="case-0">Case study video</div>
+            </div>
+          </div>
+        </figure>
+        <div class="case-study__body">
+          <div class="case-study__title">Medik8 Crystal Retinal</div>
+          <div class="case-study__field case-study__field--first"><b>Ideation: </b>The concept was built around introducing Medik8 Crystal Retinal as a market-leading, effective but approachable choice when introducing retinal into their skincare routine. Ensuring the content feels authentic and educational while still highlighting the premium positioning of both the product and brand.</div>
+          <div class="case-study__field"><b><br>Format: </b>Talking-to-camera / Product demo</div>
+          <div class="case-study__field"><b><br>Hook: </b>Opening with the relatable question, <i>'Looking to start your retinal journey but don't know where to begin?'</i> to immediately address a common pain point for retinal beginners. Pairing this with a visual hook , looking up at an overlay image of all progressive strengths available and deciding on which one is for me, visually reinforces the feeling of choice and uncertainty before introducing a solution.</div>
+        </div>
+      </div>
+
+      <div class="reveal case-study" style="--reveal-delay:100ms">
+        <figure class="phone-frame" style="--w:195px">
+          <div class="phone-frame__bezel">
+            <div class="phone-frame__screen">
+              <div class="phone-frame__notch"></div>
+              <div class="media-slot" data-slot="case-1">Case study video</div>
+            </div>
+          </div>
+        </figure>
+        <div class="case-study__body">
+          <div class="case-study__title">Mazuma Mobile</div>
+          <div class="case-study__field case-study__field--first"><b>Ideation: </b>Creating a relatable 'declutter and earn' concept that makes selling an old phone or device feel quick, simple and worthwhile. The video follows the journey from discovering the potential value of an old device, to completing the valuation online and packaging it up to be sent - giving the viewer a clear picture of how easy the process can be.</div>
+          <div class="case-study__field"><b><br>Format: </b>I used a varied UGC format combining talking-head footage, lifestyle cutaways and a website demonstration. This built a relatable narrative while visually showing how straightforward the Mazuma Mobile process is from start to finish.</div>
+          <div class="case-study__field"><b><br>Hook: </b>The verbal hook in the opening line, <i>'That old phone sitting in your drawer could actually be worth something!'</i> was designed to create a curiosity loop by introducing the possibility of hidden value without immediately revealing how to access it. This is designed to stop the scroll and encourage viewers to watch on to discover how they could turn an unused device into a little extra cash.</div>
+        </div>
+      </div>
+
+      <div class="reveal case-study" style="--reveal-delay:200ms">
+        <figure class="phone-frame" style="--w:195px">
+          <div class="phone-frame__bezel">
+            <div class="phone-frame__screen">
+              <div class="phone-frame__notch"></div>
+              <div class="media-slot" data-slot="case-2">Case study video</div>
+            </div>
+          </div>
+        </figure>
+        <div class="case-study__body">
+          <div class="case-study__title">Canva</div>
+          <div class="case-study__field case-study__field--first"><b>Ideation: </b>Positioning Canva as a practice solution for the everyday creative overwhelm that comes with managing multiple projects at once. Rather than focusing solely on the features, I built the concept around a relatable creative mindset and then demonstrated how Canva can support everything from presentations and mood boards to organising ideas.</div>
+          <div class="case-study__field"><b><br>Format: </b>Combining talking-to-camera footage with a screen-recorded website demonstration to balance personality with platform education.</div>
+          <div class="case-study__field"><b><br>Hook: </b>A relatable verbal hook to demonstrate the pain point of creative overwhelm that comes with managing multiple projects at once.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="reveal">
+      <div class="eyebrow-row">
+        <span class="eyebrow-rule"></span>
+        <span class="dot dot--sm" aria-hidden="true"></span>
+        <span class="eyebrow">Rates</span>
+      </div>
+      <h2 class="heading">Services &amp; Pricing</h2>
+    </div>
+
+    <div class="service-grid">
+      <div class="reveal" style="--reveal-delay:0ms">
+        <div class="service-card">
+          <h3 class="service-card__title">Base Rates</h3>
+          <p class="service-card__desc">Platform-native UGC tailored to your brand, voice, and audience. 1 additional revision per video included.</p>
+          <ul class="service-card__items">
+            <li>1 video — £110–160</li>
+            <li>3 videos — £300–450</li>
+            <li>5 videos — £475–700</li>
+          </ul>
+          <div class="service-card__price">From £110</div>
+        </div>
+      </div>
+      <div class="reveal" style="--reveal-delay:90ms">
+        <div class="service-card service-card--dark">
+          <h3 class="service-card__title">Extra Usage Rights</h3>
+          <p class="service-card__desc">Beyond organic/social use.</p>
+          <ul class="service-card__items">
+            <li>Paid ads, 3 months — £75–100</li>
+            <li>Paid ads, 6–12 months — £150–250</li>
+            <li>Perpetual buyout — £500–700</li>
+          </ul>
+          <div class="service-card__price">From £75</div>
+        </div>
+      </div>
+      <div class="reveal" style="--reveal-delay:180ms">
+        <div class="service-card">
+          <h3 class="service-card__title">Extra Hooks</h3>
+          <p class="service-card__desc">A/B test entry points to find the strongest one.</p>
+          <ul class="service-card__items">
+            <li>Per extra hook — £50</li>
+          </ul>
+          <div class="service-card__price">£50</div>
+        </div>
+      </div>
+      <div class="reveal" style="--reveal-delay:0ms">
+        <div class="service-card service-card--dark">
+          <h3 class="service-card__title">Whitelisting</h3>
+          <p class="service-card__desc">Spark Ads / Partnership Ads access only — never full account login.</p>
+          <ul class="service-card__items">
+            <li>1 month — £200</li>
+            <li>3 months — £500–550</li>
+            <li>6 months — £900–1,000</li>
+          </ul>
+          <div class="service-card__price">From £200</div>
+        </div>
+      </div>
+      <div class="reveal" style="--reveal-delay:90ms">
+        <div class="service-card">
+          <h3 class="service-card__title">Raw Footage</h3>
+          <p class="service-card__desc">Unedited footage for your team to re-cut and repurpose.</p>
+          <ul class="service-card__items">
+            <li>Per video — £60</li>
+          </ul>
+          <div class="service-card__price">£60</div>
+        </div>
+      </div>
+      <div class="reveal" style="--reveal-delay:180ms">
+        <div class="service-card service-card--dark">
+          <h3 class="service-card__title">Script &amp; Brief Writing</h3>
+          <p class="service-card__desc">From a single script to a full shot-ready brief.</p>
+          <ul class="service-card__items">
+            <li>Single script — £35–45</li>
+            <li>Full brief — £70–90</li>
+            <li>Bundle of 5 — from £150</li>
+          </ul>
+          <div class="service-card__price">From £35</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--tight-top">
+  <div class="container">
+    <div class="reveal">
+      <div class="eyebrow-row">
+        <span class="eyebrow-rule"></span>
+        <span class="dot dot--sm" aria-hidden="true"></span>
+        <span class="eyebrow">What to expect</span>
+      </div>
+      <h2 class="heading">Deliverables</h2>
+    </div>
+
+    <div class="deliverable-grid">
+      <div class="reveal" style="--reveal-delay:0ms">
+        <div class="deliverable-card">
+          <h3 class="deliverable-card__title">Turnaround Time</h3>
+          <p class="deliverable-card__body">Standard turnaround is typically 5–7 business days from receiving the brief and product delivery, with timelines varying depending on project scope.</p>
+        </div>
+      </div>
+      <div class="reveal" style="--reveal-delay:100ms">
+        <div class="deliverable-card">
+          <h3 class="deliverable-card__title">Revisions</h3>
+          <p class="deliverable-card__body">One round of revisions is included to ensure the final content aligns with your vision and brief. Additional revisions can be discussed if further edits are required.</p>
+        </div>
+      </div>
+      <div class="reveal" style="--reveal-delay:200ms">
+        <div class="deliverable-card">
+          <h3 class="deliverable-card__title">Content &amp; Delivery</h3>
+          <p class="deliverable-card__body">Final assets are edited in CapCut and delivered ready to use in high-resolution format, optimised for platform-native performance. Raw footage or additional asset requests can be arranged as add-ons.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer id="contact" class="section--dark">
+  <div class="container contact-grid">
+    <div class="reveal">
+      <h2 class="contact-heading">Contact</h2>
+      <div class="contact-cols">
+        <div class="contact-col">
+          <div class="contact-col__label">My Socials</div>
+          <div class="contact-col__value">TikTok — @itsalicejulia<br>Instagram — @itsalicejulia</div>
+        </div>
+        <div class="contact-col">
+          <div class="contact-col__label">Phone Number</div>
+          <div class="contact-col__value">+44 7557 145463</div>
+        </div>
+        <div class="contact-col">
+          <div class="contact-col__label">Email</div>
+          <a class="contact-col__value contact-col__value--link" href="mailto:alicejulia.ugc@gmail.com">alicejulia.ugc@gmail.com</a>
+        </div>
+      </div>
+    </div>
+    <div class="reveal" style="--reveal-delay:120ms">
+      <div class="portrait">
+        <div class="media-slot" data-slot="contact-portrait">Portrait photo</div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-nav">
+    <a class="nav-link nav-link--dark" href="#about">About</a>
+    <a class="nav-link nav-link--dark" href="#portfolio">Portfolio</a>
+    <a class="nav-link nav-link--dark" href="#contact">Contact</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
