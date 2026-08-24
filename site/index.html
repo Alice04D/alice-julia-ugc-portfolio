@@ -25,11 +25,9 @@
   <video>/<img> pointing at the real asset, keeping the same wrapper
   markup (.phone-frame__screen or .portrait) so sizing/rounding still work:
 
-    ugc-canva          — one remaining UGC example clip (Tech/SaaS row; Beauty row
-                         fully filled, TopCashback and Mazuma Mobile filled)
-    case-2             — one remaining case-study clip (case-0 / Medik8,
-                         case-1 / Mazuma Mobile filled)
     contact-portrait   — footer portrait photo
+
+  All UGC Examples and Case Studies video slots are filled.
 
   Double-check the TikTok/Instagram handles in the footer match the real ones.
 -->
@@ -248,7 +246,9 @@
             <div class="phone-frame__bezel">
               <div class="phone-frame__screen">
                 <div class="phone-frame__notch"></div>
-                <div class="media-slot" data-slot="ugc-canva">UGC video</div>
+                <video class="phone-frame__video" poster="media/canva-poster.jpg" controls preload="metadata" playsinline>
+                  <source src="media/canva.mp4" type="video/mp4">
+                </video>
               </div>
             </div>
             <figcaption class="phone-frame__caption">Canva</figcaption>
@@ -315,7 +315,9 @@
           <div class="phone-frame__bezel">
             <div class="phone-frame__screen">
               <div class="phone-frame__notch"></div>
-              <div class="media-slot" data-slot="case-2">Case study video</div>
+              <video class="phone-frame__video" poster="media/canva-poster.jpg" controls preload="metadata" playsinline>
+                <source src="media/canva.mp4" type="video/mp4">
+              </video>
             </div>
           </div>
         </figure>
