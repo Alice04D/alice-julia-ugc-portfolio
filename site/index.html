@@ -25,7 +25,8 @@
   <video>/<img> pointing at the real asset, keeping the same wrapper
   markup (.phone-frame__screen or .portrait) so sizing/rounding still work:
 
-    ugc-*              — six UGC example clips (Beauty / Tech-SaaS rows)
+    ugc-*              — five remaining UGC example clips (Beauty / Tech-SaaS rows;
+                         Chāmpo Pitta Growth Serum filled)
     case-0, case-1, case-2 — three case-study clips
     contact-portrait   — footer portrait photo
 
@@ -185,7 +186,9 @@
             <div class="phone-frame__bezel">
               <div class="phone-frame__screen">
                 <div class="phone-frame__notch"></div>
-                <div class="media-slot" data-slot="ugc-champo-pitta-growth-serum">UGC video</div>
+                <video class="phone-frame__video" poster="media/champo-pitta-growth-serum-poster.jpg" controls preload="metadata" playsinline>
+                  <source src="media/champo-pitta-growth-serum.mp4" type="video/mp4">
+                </video>
               </div>
             </div>
             <figcaption class="phone-frame__caption">Chāmpo Pitta Growth Serum</figcaption>
