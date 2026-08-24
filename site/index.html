@@ -25,9 +25,8 @@
   <video>/<img> pointing at the real asset, keeping the same wrapper
   markup (.phone-frame__screen or .portrait) so sizing/rounding still work:
 
-    ugc-*              — three remaining UGC example clips (Beauty / Tech-SaaS rows;
-                         Chāmpo Pitta Growth Serum, Medik8 Crystal Retinal,
-                         Maybelline Grippy Serum & Grippy Setting Mist filled)
+    ugc-*              — two remaining UGC example clips (Tech/SaaS row: Mazuma
+                         Mobile, Canva; Beauty row fully filled, TopCashback filled)
     case-1, case-2     — two remaining case-study clips (case-0 / Medik8 filled)
     contact-portrait   — footer portrait photo
 
@@ -226,7 +225,9 @@
             <div class="phone-frame__bezel">
               <div class="phone-frame__screen">
                 <div class="phone-frame__notch"></div>
-                <div class="media-slot" data-slot="ugc-topcashback">UGC video</div>
+                <video class="phone-frame__video" poster="media/topcashback-poster.jpg" controls preload="metadata" playsinline>
+                  <source src="media/topcashback.mp4" type="video/mp4">
+                </video>
               </div>
             </div>
             <figcaption class="phone-frame__caption">TopCashback</figcaption>
