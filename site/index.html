@@ -25,9 +25,9 @@
   <video>/<img> pointing at the real asset, keeping the same wrapper
   markup (.phone-frame__screen or .portrait) so sizing/rounding still work:
 
-    ugc-*              — five remaining UGC example clips (Beauty / Tech-SaaS rows;
-                         Chāmpo Pitta Growth Serum filled)
-    case-0, case-1, case-2 — three case-study clips
+    ugc-*              — four remaining UGC example clips (Beauty / Tech-SaaS rows;
+                         Chāmpo Pitta Growth Serum, Medik8 Crystal Retinal filled)
+    case-1, case-2     — two remaining case-study clips (case-0 / Medik8 filled)
     contact-portrait   — footer portrait photo
 
   Double-check the TikTok/Instagram handles in the footer match the real ones.
@@ -197,7 +197,9 @@
             <div class="phone-frame__bezel">
               <div class="phone-frame__screen">
                 <div class="phone-frame__notch"></div>
-                <div class="media-slot" data-slot="ugc-medik8-crystal-retinal">UGC video</div>
+                <video class="phone-frame__video" poster="media/medik8-crystal-retinal-poster.jpg" controls preload="metadata" playsinline>
+                  <source src="media/medik8-crystal-retinal.mp4" type="video/mp4">
+                </video>
               </div>
             </div>
             <figcaption class="phone-frame__caption">Medik8 Crystal Retinal</figcaption>
@@ -268,7 +270,9 @@
           <div class="phone-frame__bezel">
             <div class="phone-frame__screen">
               <div class="phone-frame__notch"></div>
-              <div class="media-slot" data-slot="case-0">Case study video</div>
+              <video class="phone-frame__video" poster="media/medik8-crystal-retinal-poster.jpg" controls preload="metadata" playsinline>
+                <source src="media/medik8-crystal-retinal.mp4" type="video/mp4">
+              </video>
             </div>
           </div>
         </figure>
