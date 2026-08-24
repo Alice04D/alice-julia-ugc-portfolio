@@ -215,6 +215,9 @@ header{background:var(--ivory)}
   text-align:center;padding:12px;font-size:var(--text-small);color:var(--ink-70);
   background:var(--surface-alt);border:1.5px dashed var(--ink-40);
 }
+.phone-frame__video{
+  position:absolute;inset:0;width:100%;height:100%;object-fit:cover;background:var(--surface-alt);
+}
 
 /* ---- About ------------------------------------------------------------------ */
 .about-grid{display:grid;grid-template-columns:1fr 1fr;gap:var(--space-8);align-items:center}
