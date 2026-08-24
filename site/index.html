@@ -17,21 +17,6 @@
 </head>
 <body>
 
-<!--
-  MEDIA PLACEHOLDERS
-  ===================
-  This build ships with empty video/photo slots (marked .media-slot,
-  data-slot="…") standing in for real footage. Replace each with a
-  <video>/<img> pointing at the real asset, keeping the same wrapper
-  markup (.phone-frame__screen or .portrait) so sizing/rounding still work:
-
-    contact-portrait   — footer portrait photo
-
-  All UGC Examples and Case Studies video slots are filled.
-
-  Double-check the TikTok/Instagram handles in the footer match the real ones.
--->
-
 <header id="top">
   <nav class="nav" id="nav">
     <a class="nav-link" href="#about">About</a>
@@ -471,7 +456,7 @@
     </div>
     <div class="reveal" style="--reveal-delay:120ms">
       <div class="portrait">
-        <div class="media-slot" data-slot="contact-portrait">Portrait photo</div>
+        <img class="portrait__photo" src="media/alice-julia-portrait.jpg" alt="Alice Julia">
       </div>
     </div>
   </div>

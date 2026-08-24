@@ -319,6 +319,9 @@ footer{background:var(--ink);color:var(--ivory)}
 
 .portrait{aspect-ratio:4/5;width:100%;position:relative}
 .portrait .media-slot{border-radius:20px}
+.portrait__photo{
+  position:absolute;inset:0;width:100%;height:100%;object-fit:cover;border-radius:20px;background:var(--surface-alt);
+}
 
 .footer-nav{
   border-top:1px solid rgba(246,241,234,.15);
